@@ -1,0 +1,9 @@
+/* CSS styling for the portfolio cards */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.card {
+    box-shadow: 11px 10px 19px -11px rgba(0,0,0,0.72);
+    font-family: Roboto, Arial, sans-serif;
+    
+
+}
