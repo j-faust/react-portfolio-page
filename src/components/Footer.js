@@ -8,21 +8,19 @@ import "../styles/Footer.css";
 
 export default function Footer() {
    return (
+    <div className='container'>
+        <div className='row col-md-4'>
         <footer className='footer'>
             <p>
-                <ul>
                     <a href="https://github.com/j-faust">
-                        <li className='footerlogo'>
                             <FaGithub />
-                        </li>
                     </a>
                     <a href="https://www.linkedin.com/in/jason-faust-a57111141/">
-                        <li className='footerlogo'>
                             <FaLinkedin />
-                        </li>
                     </a>
-                </ul>
             </p>
         </footer>
+     </div>
+    </div>
     );
 }

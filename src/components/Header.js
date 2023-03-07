@@ -1,20 +1,21 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/Header.css'
 // import { useState, useEffect } from "react";
-import Navigation from './Navigation';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+// import Navigation from './Navigation';
+
 
 
 export default function Header(props) {
-const { currentPage, handlePageChange } = props;
+// const { currentPage, handlePageChange } = props;
 
 return (
     <header className='header'>
         <div className='container-fluid hero-image'>
-            <div className='row'>
-
+            <div className='overflow hero'>
+                <img src={require('./pages/images/pexels-bruno-thethe-1910225.jpg')} alt='Profile' className='hero-img'></img>
             </div>
         </div>
-        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
     </header>
 )
 

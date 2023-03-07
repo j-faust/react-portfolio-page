@@ -2,10 +2,16 @@ body {
     align-content: center;
 }
 
-.contactForm { 
-    margin-bottom: 32px;
+.contact-welcome {
     align-content: center;
     margin-top: 4rem;
+    margin-left: 30rem;
+}
+
+.contactForm { 
+    margin-bottom: 30px;
+    align-content: center;
+    margin-top: 2rem;
 }
 
 .text-input {
@@ -19,6 +25,13 @@ body {
     color: #fff;
 }
 
+.error-text {
+    margin-top: 0;
+    margin-left: 34rem;
+    color: red;
+    font-weight: bolder;
+}
+
 .btn {
-    margin-left: 30rem;
+    margin-left: 33rem;
 }

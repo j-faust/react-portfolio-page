@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from '../../utils/helpers';
-import { validateName } from "../../utils/helpers";
+// import { validateName } from "../../utils/helpers";
 import '../../styles/Contact.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -41,7 +41,8 @@ export default function Contact() {
     }
 
     return (
-        <div>
+        <div className="container">
+            <h3 className="contact-welcome justify-content-center">Fill Out Below to Contact Me</h3>
             <form className="contactForm col">
                 <div className="form-group row justify-content-center col-md-4">
                 <input 
@@ -75,7 +76,7 @@ export default function Contact() {
                 <button type="button" onClick={handleContactSubmit} className="btn btn-secondary col-md-2">Submit</button>
             </form>
             {errorMessage && (
-                <div>
+                <div className="error-text">
                     <p className="errorText">{errorMessage}</p>
                 </div>
             )}

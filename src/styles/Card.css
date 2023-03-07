@@ -3,11 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 /* styling for cards */
+.container {
+    margin-right: 7rem;
+}
 .card {
     opacity: 1.0;
     font-family: Roboto, Arial, sans-serif;
     text-decoration: none;
-    margin-top: 6rem;
+    margin-top: 5rem;
     color: #0000;
 }
 

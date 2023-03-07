@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-body {
-    margin-top: 45rem;
-    margin-right: 55rem;
-
-}
 
 .about-section {
     align-content: center; 
@@ -12,5 +7,6 @@ body {
 
 .about-title {
     text-align: center;
+    margin-top: 1rem;
 }
 

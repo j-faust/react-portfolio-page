@@ -4,7 +4,7 @@ import React from 'react';
 export default function Navigation({ currentPage, handlePageChange }) {
 
 return(
-    <ul className='nav nav-tabs'>
+    <ul className='nav nav-tabs col-md-10'>
         <li className='nav-item'>
             <a href='#home' onClick={() => handlePageChange('Home')} 
             className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}> Home </a>
@@ -26,7 +26,6 @@ return(
             className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}> Resume </a>
         </li>
     </ul>
-    
   );
 
 }

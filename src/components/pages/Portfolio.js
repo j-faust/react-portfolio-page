@@ -17,6 +17,11 @@ export default function Portfolio(props) {
                     projlink="https://j-faust.github.io/weather-dashboard-challenge/" />
                 </div>
                 <div className="col-md-3">
+                    <Card imgsrc={require("./images/pexels-sora-shimazaki-5668471.jpg")} title="Workday Planner App" 
+                    projdesc="This Workday Planning App can help with planning and managing your day to day activities and meetings!" 
+                    projlink="https://j-faust.github.io/workday-planner/"  />
+                </div>
+                <div className="col-md-3">
                     <Card imgsrc={require("./images/pexels-pixabay-39584 (1).jpg")} title="Random Password Generator" 
                     projdesc="The Random Password Generator will generate a random password for you to use!"
                     projlink="https://j-faust.github.io/javascript-module-challenge/" />
@@ -25,11 +30,6 @@ export default function Portfolio(props) {
                     <Card imgsrc={require("./images/pexels-markus-spiske-1089438.jpg")} title="Coding Quiz App" 
                     projdesc="This Coding Quiz App will help test your basic coding knowledge!" 
                     projlink="https://j-faust.github.io/api-module-challenge/"   /> 
-                </div>
-                <div className="col-md-3">
-                    <Card imgsrc={require("./images/pexels-sora-shimazaki-5668471.jpg")} title="Workday Planner App" 
-                    projdesc="This Workday Planning App can help with planning and managing your day to day activities and meetings!" 
-                    projlink="https://j-faust.github.io/workday-planner/"  />
                 </div>
             </div>    
         </div>

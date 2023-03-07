@@ -1,14 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-.container {
+.res-container {
     font-family: Roboto, Arial, sans-serif;
 }
 
-.footerlogo {
-    opacity: 0.5;
-}
-
-.footerlogo:hover {
-    opacity: 1;
-    transition: 0.3s ease;
+.section-title {
+    margin-top: 1rem;
 }
