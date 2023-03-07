@@ -1,10 +1,12 @@
+// importing required files
 import React from "react";
 import {  BsCloudDownload } from 'react-icons/bs';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../styles/Resume.css';
 
-
+// function for the Resume component
 export default function Resume() {
+    // returning the resume section as part of the Resume function
     return (
         <div className="container-fluid justify-content-center res-container">
             <div id="res-top" className="col-md-5 row res-title">
@@ -13,6 +15,7 @@ export default function Resume() {
                 </div>
                 <div className="flex-row">
                     <div className="download-res">
+                        {/* download icon for resume */}
                         <div className="dllogo">
                             <BsCloudDownload />
                         </div>

@@ -1,6 +1,9 @@
+// importing React
 import React from 'react';
 
 
+// exporting the Navigation  component for use and using currentPage handlePageChange 
+// to handle tab changes to display different components
 export default function Navigation({ currentPage, handlePageChange }) {
 
 return(

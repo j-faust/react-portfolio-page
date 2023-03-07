@@ -1,9 +1,12 @@
+// importing React and the ProjectContainer component
 import React from 'react';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import PortfolioContainer from './components/ProjectContainer';
+import ProjectContainer from './components/ProjectContainer';
 
-const App = () => <PortfolioContainer />
+// function to render the project container component
+const App = () => <ProjectContainer />
 
+// exporting App
 export default App;
 
 

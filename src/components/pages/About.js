@@ -1,7 +1,9 @@
+// importing React and styles for home page
 import React from "react";
 import '../../styles/About.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// exporting the About component
 export default function About() {
 
     return (

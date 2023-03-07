@@ -1,3 +1,4 @@
+// importing needed files and libraries
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
@@ -5,7 +6,7 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import reportWebVitals from './reportWebVitals';
 
-
+// using ReactDom to render App
 ReactDOM.render(<App />, document.getElementById('root'));
 
 

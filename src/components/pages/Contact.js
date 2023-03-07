@@ -1,17 +1,19 @@
+// importing React and useState method
 import React, { useState } from "react";
+// importing helper function
 import { validateEmail } from '../../utils/helpers';
-// import { validateName } from "../../utils/helpers";
 import '../../styles/Contact.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-
+// exporting the Contact function and 
 export default function Contact() {
+    // setting variables and usestate for the form inputs
     const [email, setEmail] = useState('');
     const [contactName, setContactName] = useState('');
     const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
-
+    // handle the contact form 
     const handleContactForm = (e) => {
         const { target } = e;
         const inputType = target.name;
@@ -25,7 +27,7 @@ export default function Contact() {
             setMessage(inputValue);
         }
     }
-    
+    // handle submit on the contact form
     const handleContactSubmit = (e) => {
         e.preventDefault();
 
@@ -40,6 +42,7 @@ export default function Contact() {
         setMessage('');
     }
 
+    // display the form styling for the component
     return (
         <div className="container">
             <h3 className="contact-welcome justify-content-center">Fill Out Below to Contact Me</h3>

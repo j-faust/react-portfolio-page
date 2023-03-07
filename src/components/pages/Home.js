@@ -1,6 +1,9 @@
+// importing React and page styles
 import React from "react";
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import '../../styles/Home.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
+// exporting Home component function for use 
 export default function Home() {
     return (
         <div className="container">

@@ -5,6 +5,7 @@ import '../../styles/Card.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // function to Generate the Portfolio component
+// Generating card and using props to display data on each card
 export default function Portfolio(props) {   
     return (
         <div className="container">
