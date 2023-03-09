@@ -1,7 +1,7 @@
 {
+  "homepage": "https://j-faust.github.io/react-portfolio-page",
   "name": "react-portfolio-page",
   "version": "0.1.0",
-  "homepage": "https://j-faust.github.io/react-portfolio-page",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
