@@ -32,6 +32,11 @@ export default function Portfolio(props) {
                     projdesc="This Coding Quiz App will help test your basic coding knowledge!" 
                     projlink="https://j-faust.github.io/api-module-challenge/"   /> 
                 </div>
+                <div className="col-md-3">
+                    <Card imgsrc={require("./images/pexels-ivan-samkov-4164849 (1).jpg")} title="Workout Hub" 
+                    projdesc="Social Media App To Post Workouts and Interact with other Workout Enthusiasts" 
+                    projlink="https://workout-hub-merng.herokuapp.com/"   /> 
+                </div>
             </div>    
         </div>
         )
