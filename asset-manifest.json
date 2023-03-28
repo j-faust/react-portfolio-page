@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/react-portfolio-page/static/css/main.28eedb95.css",
-    "main.js": "/react-portfolio-page/static/js/main.95702ab3.js",
+    "main.js": "/react-portfolio-page/static/js/main.351af592.js",
     "static/media/pexels-bruno-thethe-1910225.jpg": "/react-portfolio-page/static/media/pexels-bruno-thethe-1910225.796bf4df52da9599fcf9.jpg",
-    "static/media/pexels-markus-spiske-1089438.jpg": "/react-portfolio-page/static/media/pexels-markus-spiske-1089438.02e581abc3995731eaa9.jpg",
+    "static/media/pexels-ivan-samkov-4164849 (1).jpg": "/react-portfolio-page/static/media/pexels-ivan-samkov-4164849 (1).552ce07c9205f3d0b053.jpg",
     "static/media/pexels-pixabay-39584 (1).jpg": "/react-portfolio-page/static/media/pexels-pixabay-39584 (1).e2d1a3a41a8f8262e410.jpg",
     "static/media/pexels-sora-shimazaki-5668471.jpg": "/react-portfolio-page/static/media/pexels-sora-shimazaki-5668471.7f1937944c864ae567fe.jpg",
     "static/media/pexels-pixabay-209831.jpg": "/react-portfolio-page/static/media/pexels-pixabay-209831.e0f75b7193df67753761.jpg",
     "index.html": "/react-portfolio-page/index.html",
     "main.28eedb95.css.map": "/react-portfolio-page/static/css/main.28eedb95.css.map",
-    "main.95702ab3.js.map": "/react-portfolio-page/static/js/main.95702ab3.js.map"
+    "main.351af592.js.map": "/react-portfolio-page/static/js/main.351af592.js.map"
   },
   "entrypoints": [
     "static/css/main.28eedb95.css",
-    "static/js/main.95702ab3.js"
+    "static/js/main.351af592.js"
   ]
 }
