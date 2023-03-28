@@ -34,6 +34,8 @@ export default function Portfolio(props) {
                 </div>
             </div>    
         </div>
+
+        
         )
 
 }
